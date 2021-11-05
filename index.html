@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-16">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/419aeb04b9.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="main.css">
+    <!---Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Odibee+Sans&family=Oswald:wght@300&family=Rubik&display=swap" rel="stylesheet">
+    <title>Green Pawts</title>
+</head>
+
+<body>
+    <header>
+        <!--============= NAVBAR ==================-->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" id="Home" href="#Home">Green Pawts</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-socks"></i></span>
+          </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Trending">Trending</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#Store">Store</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#Blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#Contact">Contact us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn-search" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!--========== END - NAVBAR ===============-->
+
+        <!--========== BANNER =====================-->
+        <section class="main m-0">
+            <div class="container py-5">
+                <div class="row py-4">
+                    <div class="col-lg-7 pt-5 text-center">
+                        <h1 class="pt-5"><center>Find your ideal style!  </center></h1>
+                        <button class="btn-banner mt-3">Get it..</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <button class="btn-car" data-bs-toggle="modal" data-bs-target="#modal-car"><i class="fas fa-shopping-cart"></i></button>
+        <!--========== END BANNER =====================-->
+    </header>
+    <!--========== SALE SECTION =====================-->
+    <section class="product py-5">
+        <div class="container">
+            <div class="row py-5 ">
+                <div id="Trending" class="col-lg-5 m-auto text-center">
+                        <h1>What´s is Trending</h1>
+                    <h6 class="text-danger">Find your style</h6>
+                </div>
+            </div>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-3 text-center">
+                                <div class="card border-0 bg-light mb-2">
+                                    <div class="card-body">
+                                        <img src="producto1.jpeg" class="img-fluid" alt="vestido rosado">
+                                    </div>
+                                </div>
+                                <h6>Vestido Rosado</h6>
+                                <p>80.000 COP</p>
+                            </div>
+                            <div class="col-lg-3 text-center">
+                                <div class="card border-0 bg-light mb-2">
+                                    <div class="card-body">
+                                        <img src="producto1.jpeg"
+                                         class="img-fluid" alt="Jeans">
+                                    </div>
+                                </div>
+                                <h6>Jeans</h6>
+                                <p>70.000 COP</p>
+                            </div>
+                            <div class="col-lg-3 text-center">
+                                <div class="card border-0 bg-light mb-2">
+                                    <div class="card-body">
+                                        <img src="Porducto2.jpeg" class="img-fluid" alt="vestido">
+                                    </div>
+                                </div>
+                                <h6>Vestido</h6>
+                                <p>80.000 COP</p>
+                            </div>
+                            <div class="col-lg-3 text-center">
+                                <div class="card border-0 bg-light mb-2">
+                                    <div class="card-body">
+                                        <img src="Producto3.jpeg" class="img-fluid" alt="Blusa">
+                                    </div>
+                                </div>
+                                <h6>Blusa</h6>
+                                <p>60.000 COP</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-3 text-center">
+                                <div class="card border-0 bg-light mb-2">
+                                    <div class="card-body">
+                                        <img src="producto4.jpeg" class="img-fluid" alt="vestido rosado">
+                                    </div>
+                                </div>
+                                <h6>Vestido Rosado</h6>
+                                <p>80.000 COP</p>
+                            </div>
+                            <div class="col-lg-3 text-center">
+                                <div class="card border-0 bg-light mb-2">
+                                    <div class="card-body">
+                                        <img src="producto_1.jpg" class="img-fluid" alt="Jeans">
+                                    </div>
+                                </div>
+                                <h6>Jeans</h6>
+                                <p>70.000 COP</p>
+                            </div>
+                            <div class="col-lg-3 text-center">
+                                <div class="card border-0 bg-light mb-2">
+                                    <div class="card-body">
+                                        <img src="Porducto2.jpeg" class="img-fluid" alt="vestido">
+                                    </div>
+                                </div>
+                                <h6>Vestido</h6>
+                                <p>80.000 COP</p>
+                            </div>
+                            <div class="col-lg-3 text-center">
+                                <div class="card border-0 bg-light mb-2">
+                                    <div class="card-body">
+                                        <img src="Producto3.jpeg" class="img-fluid" alt="Blusa">
+                                    </div>
+                                </div>
+                                <h6>Blusa</h6>
+                                <p>60.000 COP</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-3 text-center">
+                                <div class="card border-0 bg-light mb-2">
+                                    <div class="card-body">
+                                        <img src="producto4 (2).jpeg" class="img-fluid" alt="vestido rosado">
+                                    </div>
+                                </div>
+                                <h6>Vestido Rosado</h6>
+                                <p>80.000 COP</p>
+                            </div>
+                            <div class="col-lg-3 text-center">
+                                <div class="card border-0 bg-light mb-2">
+                                    <div class="card-body">
+                                        <img src="producto1.jpeg" class="img-fluid" alt="Jeans">
+                                    </div>
+                                </div>
+                                <h6>Jeans</h6>
+                                <p>70.000 COP</p>
+                            </div>
+                            <div class="col-lg-3 text-center">
+                                <div class="card border-0 bg-light mb-2">
+                                    <div class="card-body">
+                                        <img src="Porducto2.jpeg" class="img-fluid" alt="vestido">
+                                    </div>
+                                </div>
+                                <h6>Vestido</h6>
+                                <p>80.000 COP</p>
+                            </div>
+                            <div class="col-lg-3 text-center">
+                                <div class="card border-0 bg-light mb-2">
+                                    <div class="card-body">
+                                        <img src="Producto3.jpeg" class="img-fluid" alt="Blusa">
+                                    </div>
+                                </div>
+                                <h6>Blusa</h6>
+                                <p>60.000 COP</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span><i class="fas fa-angle-left"></i></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span><i class="fas fa-angle-right"></i></span>
+                </button>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 text-center m-auto">
+                    <button class="btn-banner">Click for more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h1><center>Eco-environmental campaign</center></h1>
+    <h6 class="text-danger"> <center>find the product of your preference</center></h6>
+</div>
+</div>
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="row">
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img src="sabias.jpg" class="img-fluid" alt="vestido rosado">
+                        </div>
+                    </div>
+                    <h6>Vestido Rosado</h6>
+                    <p>80.000 COP</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img src="logo_principal.PNG" class="img-fluid" alt="vestido">
+                        </div>
+                    </div>
+                    <h6>Vestido</h6>
+                    <p>80.000 COP</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img src="logo_natural.jpg" class="img-fluid" alt="Blusa">
+                        </div>
+                    </div>
+                    <h6>Blusa</h6>
+                    <p>60.000 COP</p>
+
+<div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+
+</section>
+</main>
+<footer class="footer">
+    <section class= text"footer-contact">
+        <section>
+         <a href=""> <center>Facebook</center></a>
+         <a href=""> <center>Contacto: 3228527596</center></a>
+        </section>
+    </section>
+</footer>
+
+    <!--========== END SALE SECTION =====================-->
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+
+</html>
